@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anonymous Chat</title>
+  <link rel="stylesheet" href="./Anonymous Chat_files/style.css">
+  
+  <link rel="stylesheet" href="./Anonymous Chat_files/all.min.css">
+</head>
+<body>
+  <div class="chat-container">
+    <header>
+    <button class="back-btn" aria-label="Go Back">←</button>
+    <img src="./Anonymous Chat_files/istockphoto-814423752-612x612.jpg" alt="Group Logo" class="group-logo">
+    <h2 style="color: rgb(253, 45, 45);">Fun Friday Group</h2>
+
+    <button class="group-info-btn" aria-label="Group Info" style="background-color: rgb(230, 57, 57); border-radius: 50%; width: 40px; height: 40px; border: none; color: white; font-size: 20px; cursor: pointer;">👥</button>
+
+  </header>
+    
+    <main id="messages"><div class="message sent"><div>Hii good morning,</div><div class="meta"><span>11:31 AM</span><span class="ticks" style="color: blue;">✓✓</span></div></div><div class="message sent"><div>Hello</div><div class="meta"><span>11:32 AM</span><span class="ticks" style="color: blue;">✓✓</span></div></div></main>
+    
+    <footer>
+      <input type="text" id="messageInput" placeholder="Type a message...">
+      
+      <div class="icons">
+        <button id="cameraBtn"><i class="fas fa-camera"></i></button>
+        <button id="attachBtn"><i class="fas fa-paperclip"></i></button>
+        <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+
+      </div>
+    </footer>
+  </div>
+  <script src="./Anonymous Chat_files/socket.io.js.download"></script>
+  <script src="./Anonymous Chat_files/script.js.download"></script>
+
+
+</body></html>
