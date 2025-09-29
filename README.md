@@ -68,5 +68,15 @@ CREATE TABLE messages (
 6. Open in browser:
    http://localhost:3000
 ## Screenshots
+![Chat Interface](User_interface.jpg)
+![Chat Interface](chat_user.jpg)
+## Contributing
 
+Feel free to open issues or submit pull requests for improvements. Contributions are always welcome!
+
+## License
+
+This project is licensed under the MIT License
+---
+*Created by Lokesh*
 ### Chat User Interface
