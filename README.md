@@ -35,3 +35,38 @@ chat-app/
 │── database.sql # SQL schema
 │── package.json # Node.js config
 │── README.md
+---
+
+## ⚙ Setup & Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/chat-app.git
+   cd chat-app
+2. Install dependencies:
+  npm install
+3. Setup MySQL database:
+
+Open database.sql and run it in MySQL Workbench or CLI:
+CREATE DATABASE chat_app;
+USE chat_app;
+CREATE TABLE messages (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  sender VARCHAR(50) DEFAULT 'Anonymous',
+  text TEXT NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  );
+4.Update database credentials in server.js:
+  const db = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: '!@#$%^&',
+  database: 'chat_app'
+  });
+5.Run the server:
+  node server.js
+6. Open in browser:
+   http://localhost:3000
+## Screenshots
+
+### Chat User Interface
